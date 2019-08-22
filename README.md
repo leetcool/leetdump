@@ -18,3 +18,5 @@ For Example if you want to dump libtersafe.so from memory and PID of main pubg p
 - tsudo ./leetdump 1234 libtersafe.so
 # Note
 - This dumper writes Byte By Byte so it may take some time to dump the data if data size is heavy like 100s of MBs. I may update it later to support quick dumping.
+
+![](./img1.jpg)
