@@ -17,6 +17,7 @@
 For Example if you want to dump libtersafe.so from memory and PID of main pubg process id is 1234 then the command would be 
 - tsudo ./leetdump 1234 libtersafe.so
 # Note
-- This dumper writes Byte By Byte so it may take some time to dump the data if data size is heavy like 100s of MBs. I may update it later to support quick dumping.
+- ~~This dumper writes Byte By Byte so it may take some time to dump the data if data size is heavy like 100s of MBs. I may update it later to support quick dumping.~~
+- Updated the script to enable quick dumping. Please use python script. I will add the executable to releases soon.
 
 ![](./img1.jpg)
