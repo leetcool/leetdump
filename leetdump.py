@@ -43,7 +43,7 @@ else:
     if nread != -1:
         lol = ""
         print("[+] received " + str(nread) + " Bytes")
-        file = open(grep_str, "rb")
+        file = open(grep_str, "wb")
         file.write(buf1)
         file.close()
         print("")
