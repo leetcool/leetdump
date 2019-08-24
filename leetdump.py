@@ -43,11 +43,8 @@ else:
     if nread != -1:
         lol = ""
         print("[+] received " + str(nread) + " Bytes")
-        finalbin = open (grep_str,'a+b')
-        for i in buf1: 
-            lol = "{:02x}".format(ord(i))
-            binc = binascii.unhexlify(lol)
-            finalbin.write(binc)
-        finalbin.close()
+        file = open(grep_str, "rb")
+        file.write(buf1)
+        file.close()
         print("")
         print("Dumped "+grep_str+" Successfully........")
